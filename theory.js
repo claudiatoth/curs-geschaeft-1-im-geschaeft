@@ -47,21 +47,25 @@ const theoryHTML = `
                 </div>
                 <span class="lesson-audio-label">🔊 Ascultă secțiunea</span>
             </div>
+            <div class="theory-box" style="background:#fef3c7;border-color:#f59e0b;">
+                <h4>🚨 Substantivele se învață ÎNTOTDEAUNA cu pluralul</h4>
+                <p>În germană pluralul e imprevizibil (-e, -en, -er, Umlaut sau identic). De aceea fiecare substantiv apare aici la <strong>singular · plural</strong>. Învață-le împreună, ca pe o pereche.</p>
+            </div>
             <table class="grammar-table">
-                <thead><tr><th>Deutsch</th><th>Traducere RO</th><th>Exemplu (DE)</th></tr></thead>
+                <thead><tr><th>Singular</th><th>Plural</th><th>Traducere RO</th><th>Exemplu (DE)</th></tr></thead>
                 <tbody>
-                    <tr><td class="verb">der Laden / das Geschäft</td><td>magazinul</td><td><em>Ich arbeite in einem kleinen Geschäft.</em></td></tr>
-                    <tr><td class="verb">der Kunde / die Kundin</td><td>clientul / clienta</td><td><em>Der Kunde möchte Brot kaufen.</em></td></tr>
-                    <tr><td class="verb">der Verkäufer / die Verkäuferin</td><td>vânzătorul / vânzătoarea</td><td><em>Die Verkäuferin ist sehr nett.</em></td></tr>
-                    <tr><td class="verb">die Kasse</td><td>casa de marcat</td><td><em>Ich stehe an der Kasse.</em></td></tr>
-                    <tr><td class="verb">die Ware (Pl. Waren)</td><td>marfa</td><td><em>Die Ware ist neu und frisch.</em></td></tr>
-                    <tr><td class="verb">das Regal</td><td>raftul</td><td><em>Ich räume die Ware ins Regal ein.</em></td></tr>
-                    <tr><td class="verb">der Preis</td><td>prețul</td><td><em>Der Preis ist zu hoch.</em></td></tr>
-                    <tr><td class="verb">der Rabatt</td><td>reducerea</td><td><em>Heute gibt es 10 % Rabatt.</em></td></tr>
-                    <tr><td class="verb">der Einkaufskorb</td><td>coșul de cumpărături</td><td><em>Der Einkaufskorb ist voll.</em></td></tr>
-                    <tr><td class="verb">die Tüte</td><td>punga</td><td><em>Möchten Sie eine Tüte?</em></td></tr>
-                    <tr><td class="verb">der Kassenzettel / der Kassenbon</td><td>bonul fiscal</td><td><em>Hier ist Ihre Quittung.</em></td></tr>
-                    <tr><td class="verb">geöffnet / geschlossen</td><td>deschis / închis</td><td><em>Der Laden ist bis 20 Uhr geöffnet.</em></td></tr>
+                    <tr><td class="verb">der Laden / das Geschäft</td><td class="verb">die Läden / die Geschäfte</td><td>magazinul · magazinele</td><td><em>Ich arbeite in einem kleinen Geschäft.</em></td></tr>
+                    <tr><td class="verb">der Kunde / die Kundin</td><td class="verb">die Kunden / die Kundinnen</td><td>clientul · clienta / clienții · clientele</td><td><em>Der Kunde möchte Brot kaufen.</em></td></tr>
+                    <tr><td class="verb">der Verkäufer / die Verkäuferin</td><td class="verb">die Verkäufer / die Verkäuferinnen</td><td>vânzătorul · vânzătoarea / vânzătorii · vânzătoarele</td><td><em>Die Verkäuferin ist sehr nett.</em></td></tr>
+                    <tr><td class="verb">die Kasse</td><td class="verb">die Kassen</td><td>casa de marcat · casele de marcat</td><td><em>Ich stehe an der Kasse.</em></td></tr>
+                    <tr><td class="verb">die Ware</td><td class="verb">die Waren</td><td>marfa · mărfurile</td><td><em>Die Ware ist neu und frisch.</em></td></tr>
+                    <tr><td class="verb">das Regal</td><td class="verb">die Regale</td><td>raftul · rafturile</td><td><em>Ich räume die Ware ins Regal ein.</em></td></tr>
+                    <tr><td class="verb">der Preis</td><td class="verb">die Preise</td><td>prețul · prețurile</td><td><em>Der Preis ist zu hoch.</em></td></tr>
+                    <tr><td class="verb">der Rabatt</td><td class="verb">die Rabatte</td><td>reducerea · reducerile</td><td><em>Heute gibt es 10 % Rabatt.</em></td></tr>
+                    <tr><td class="verb">der Einkaufskorb</td><td class="verb">die Einkaufskörbe</td><td>coșul · coșurile de cumpărături</td><td><em>Der Einkaufskorb ist voll.</em></td></tr>
+                    <tr><td class="verb">die Tüte</td><td class="verb">die Tüten</td><td>punga · pungile</td><td><em>Möchten Sie eine Tüte?</em></td></tr>
+                    <tr><td class="verb">der Kassenzettel / der Kassenbon</td><td class="verb">die Kassenzettel / die Kassenbons</td><td>bonul fiscal · bonurile fiscale</td><td><em>Hier ist Ihre Quittung.</em></td></tr>
+                    <tr><td class="verb">geöffnet / geschlossen <em>(Adj.)</em></td><td>—</td><td>deschis / închis</td><td><em>Der Laden ist bis 20 Uhr geöffnet.</em></td></tr>
                 </tbody>
             </table>
         </div>
