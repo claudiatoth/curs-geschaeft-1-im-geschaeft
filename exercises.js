@@ -76,7 +76,7 @@ function dmTry(prefix) {
 // EX1: Lückentext
 // ============================================
 const ex1Items = [
-    { id: 'a', before: 'Ich arbeite in einem kleinen', after: '. (magazin)', answer: 'Geschäft', accept: ['Laden'] },
+    { id: 'a', before: 'Ich arbeite in einem kleinen', after: '. (magazin)', answer: 'Geschäft', accept: ['Geschäft', 'Laden'] },
     { id: 'b', before: 'Der', after: 'möchte Brot kaufen.', answer: 'Kunde' },
     { id: 'c', before: 'Die', after: 'ist kaputt, ich kann nicht kassieren.', answer: 'Kasse' },
     { id: 'd', before: 'Haben Sie eine', after: '? (pungă)', answer: 'Tüte' },
@@ -135,12 +135,12 @@ function resetEx3() { buildEx3(); const s = document.getElementById('score-3'); 
 // ============================================
 const ex4Items = [
     { id: 'a', q: 'Pot să vă ajut?', answer: 'Kann ich Ihnen helfen?', accept: ['Kann ich dir helfen?'] },
-    { id: 'b', q: 'Doriți să plătiți cu cardul?', answer: 'Möchten Sie mit Karte bezahlen?', accept: ['Möchten Sie mit Karte zahlen?'] },
+    { id: 'b', q: 'Doriți să plătiți cu cardul?', answer: 'Möchten Sie mit Karte bezahlen?', accept: ['Möchten Sie mit Karte bezahlen?', 'Möchten Sie mit Karte zahlen?'] },
     { id: 'c', q: 'Bonul dumneavoastră, vă rog.', answer: 'Ihre Quittung, bitte.', accept: ['Ihren Kassenbon, bitte.'] },
-    { id: 'd', q: 'Cât costă un kilogram de mere?', answer: 'Wie viel kostet ein Kilo Äpfel?', accept: ['Wie viel kosten ein Kilo Äpfel?'] },
+    { id: 'd', q: 'Cât costă un kilogram de mere?', answer: 'Wie viel kostet ein Kilo Äpfel?', accept: ['Wie viel kostet ein Kilo Äpfel?', 'Wie viel kosten ein Kilo Äpfel?'] },
     { id: 'e', q: 'Acest produs este la reducere.', answer: 'Dieses Produkt ist im Angebot.', accept: ['Das Produkt ist im Angebot.'] },
     { id: 'f', q: 'O zi frumoasă în continuare!', answer: 'Einen schönen Tag noch!' },
-    { id: 'g', q: 'Aș dori să returnez acest produs.', answer: 'Ich möchte dieses Produkt zurückgeben.', accept: ['Ich möchte das Produkt zurückgeben.'] },
+    { id: 'g', q: 'Aș dori să returnez acest produs.', answer: 'Ich möchte dieses Produkt zurückgeben.', accept: ['Ich möchte dieses Produkt zurückgeben.', 'Ich möchte das Produkt zurückgeben.'] },
     { id: 'h', q: 'Pâinea este în spate, lângă lapte.', answer: 'Das Brot ist hinten, neben der Milch.' }
 ];
 function buildEx4() {
