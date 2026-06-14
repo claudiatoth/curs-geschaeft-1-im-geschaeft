@@ -26,7 +26,7 @@ const theoryHTML = `
                     <div class="text">Prima lecție din seria <strong>Deutsch im Geschäft</strong>! Înveți vocabularul și frazele de care ai nevoie în orice magazin german — fie că ești client, fie că <strong>lucrezi</strong> ca vânzător. La final ascultăm un dialog real: eu fac cumpărături și plătesc la casă.</div>
                 </div>
             </div>
-            <div class="theory-box" style="background:#fef3c7;border-color:#f59e0b;">
+            <div class="theory-box" style="background:#F5F0E8;border-color:#D4A574;">
                 <h4>✍️ Notă despre diacritice (ä, ö, ü, ß)</h4>
                 <p>Verificarea e blândă: poți scrie Umlaut-urile corect (<em>Verkäuferin, Tüte</em>) sau cu varianta de înlocuire (<em>Verkaeuferin, Tuete</em>). Ambele sunt acceptate.</p>
             </div>
@@ -47,7 +47,7 @@ const theoryHTML = `
                 </div>
                 <span class="lesson-audio-label">🔊 Ascultă secțiunea</span>
             </div>
-            <div class="theory-box" style="background:#fef3c7;border-color:#f59e0b;">
+            <div class="theory-box" style="background:#F5F0E8;border-color:#D4A574;">
                 <h4>🚨 Substantivele se învață ÎNTOTDEAUNA cu pluralul</h4>
                 <p>În germană pluralul e imprevizibil (-e, -en, -er, Umlaut sau identic). De aceea fiecare substantiv apare aici la <strong>singular · plural</strong>. Învață-le împreună, ca pe o pereche.</p>
             </div>
